@@ -1,0 +1,5 @@
+1. Write the following programs:
+ - Write a JavaScript program that will loop through array a, and capitalizes every third word.
+ - Create a Ruby program that does exactly the same thing.
+ a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
