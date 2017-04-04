@@ -3,3 +3,32 @@
 
 var b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
  
+ ans\
+ 
+ var i;
+for (i=0; i<b.length; i++){
+  if(b[i]%2!==0){
+    if (b[i]%5===0){
+      console.log(power(b[i],2));
+    }
+    else {
+      console.log(b[i]*2);
+    }
+  }
+  else if (b[i]%2===0){
+    if (b[i]%10===0){
+      console.log(b[i]);
+    }
+    console.log(b[i]-1);
+  }
+}
+
+
+function power (x, y) {
+if (y === 0) {
+return 1;
+}
+else {
+return x * power(x, y - 1);
+}
+}
