@@ -1,0 +1,5 @@
+7. Write the following programs:
+ - Write a JavaScript program that will create another array, which will be 2/3 * the corresponding 
+	element in the new array + 1/2. Then, for each element in b, print element * every element in the new array 
+	(cross product).
+	
